@@ -26,9 +26,10 @@ This command will download the node_modules necessaries from the app.
 ```
 npm start
 ```
-When the project starts, go to your browser an d type the next URL: http://localhost:3000 and it's ready to start to programming the features.
+When the project starts, go to your browser and type the next URL: http://localhost:3000 You can see a Payment Form but it's not working yet.
 
-## Adding Access Token, Application ID and Location ID in the project:
+## Adding Access Token, Application ID and Location ID into the project:
 
 * Access Token:
+
 Go to `server.js` file
