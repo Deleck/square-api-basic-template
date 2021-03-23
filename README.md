@@ -35,6 +35,7 @@ When the project starts, go to your browser and type the next URL: http://localh
 * **Access Token**:  
 Go to `server.js` file and find the line:  
 ```javascript
+//Replace with our sandbox Access Token
 const accessToken = 'ACCESS_TOKEN';
 ```  
 Copy and paste your Access Token generated in [Square Developer Dashboard](https://developer.squareup.com/apps).
@@ -42,7 +43,7 @@ Copy and paste your Access Token generated in [Square Developer Dashboard](https
 * **Application ID**:  
 Go to `index.html` file and find the line:  
 ```javascript
-//Replace with our sandbox application ID
+//Replace with our sandbox Application ID
 applicationId: "APPLICATION_ID"
 ```  
 Copy and paste your Application ID generated in [Square Developer Dashboard](https://developer.squareup.com/apps).
@@ -50,7 +51,7 @@ Copy and paste your Application ID generated in [Square Developer Dashboard](htt
 * **Location ID**:  
 Go to `index.html` file and find the line:  
 ```javascript
-//Replace with our sandbox application ID
+//Replace with our sandbox Location ID
 location_id: "LOCATION_ID"
 ```  
 Go to [Square Developer Dashboard](https://developer.squareup.com/apps) and find the option `Locations` in the left menu, Copy and paste your Location ID generated.
@@ -58,4 +59,6 @@ Go to [Square Developer Dashboard](https://developer.squareup.com/apps) and find
 ## Now everything is ready!  
 Now you can test your first payment through the API, you can find some card numbers and additional information in `index.html` file.
 
-* For more documentation about the API, visit [Square Payments in your Website](https://developer.squareup.com/docs/payment-form/overview) and if you want to change the design of the payment form, visit: [Customize Payment Form Appearance](https://developer.squareup.com/docs/payment-form/cookbook/customize-form-styles). 
+* For more documentation about the API, visit: [Square Payments in your Website](https://developer.squareup.com/docs/payment-form/overview).
+
+* If you want to change the design of the payment form, visit: [Customize Payment Form Appearance](https://developer.squareup.com/docs/payment-form/cookbook/customize-form-styles). 
