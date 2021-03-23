@@ -31,4 +31,7 @@ When the project starts, go to your browser and type the next URL: http://localh
 ## Adding Access Token, Application ID and Location ID into the project:
 
 * Access Token:  
-Go to `server.js` file
+Go to `server.js` file and find the line:  
+```javascript
+const accessToken = 'ACCESS_TOKEN';
+```
