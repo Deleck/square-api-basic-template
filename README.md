@@ -10,7 +10,7 @@ Following the next steps for a correct use of the Square API
 
 * Ensure you have npm (a NodeJS package manager) installed. Type `npm -v` in your terminal, if not work please follow the instructions for your OS: https://www.npmjs.com/get-npm
 
-* Get your credentials from the [Square Developer Dashboard](https://developer.squareup.com/apps):
+* Get your credentials from the [Square Developer Dashboard](https://developer.squareup.com/apps).
 
 ## Steps:
 
@@ -22,7 +22,7 @@ npm install
 ```
 This command will download the node_modules necessaries from the app.
 
-* Then to run the server:
+* Then to run the server type the following command:
 ```
 npm start
 ```
@@ -30,8 +30,16 @@ When the project starts, go to your browser and type the next URL: http://localh
 
 ## Adding Access Token, Application ID and Location ID into the project:
 
-* Access Token:  
+* **Access Token**:  
 Go to `server.js` file and find the line:  
 ```javascript
 const accessToken = 'ACCESS_TOKEN';
-```
+```  
+Copy and paste your Access Token generated in [Square Developer Dashboard](https://developer.squareup.com/apps).
+
+* **Application ID**:  
+Go to `index.html` file and find the line:  
+```html
+const accessToken = 'ACCESS_TOKEN';
+```  
+Copy and paste your Access Token generated in [Square Developer Dashboard](https://developer.squareup.com/apps).
