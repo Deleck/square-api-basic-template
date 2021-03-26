@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // Set the Access Token which is used to authorize to a merchant
-const accessToken = 'ACCESS_TOKEN';
+const accessToken = 'EAAAEIBf_LhZhO8MFwcShKMJOzEzMu-fRz-laN0KgkLCefrRTgyuRxqIR1YeCpz1';
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
